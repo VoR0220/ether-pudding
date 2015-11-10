@@ -2,20 +2,42 @@
   "name": "ether-pudding",
   "version": "1.0.3",
   "description": "Pudding - a (more) delightful Ethereum contract abstraction",
-  "author": "Tim Coulter",
+  "author": {
+    "name": "Tim Coulter"
+  },
   "main": "build/ether-pudding.js",
   "private": false,
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/consensys/ether-pudding.git"
+    "url": "git+https://github.com/consensys/ether-pudding.git"
   },
   "dependencies": {
-    "web3": "*",
+    "babel": "^5.8.23",
     "bluebird": "*",
-    "rimraf": "*",
     "node-dir": "*",
-    "babel": "*"
+    "rimraf": "*",
+    "web3": "*"
   },
-  "license": "MIT License. Copyright Consensys LLC, and authors. All rights reserved."
+  "license": "MIT License. Copyright Consensys LLC, and authors. All rights reserved.",
+  "gitHead": "9578330d672897d90da653cb724917ca6ac55488",
+  "bugs": {
+    "url": "https://github.com/consensys/ether-pudding/issues"
+  },
+  "homepage": "https://github.com/consensys/ether-pudding#readme",
+  "_id": "ether-pudding@1.0.3",
+  "_shasum": "665cc718deb6ab0a1e2882820b4606eafc5cfab6",
+  "_from": "ether-pudding@*",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "name": "tcoulter",
+    "email": "tim@timothyjcoulter.com"
+  },
+  "maintainers": [
+    {
+      "name": "tcoulter",
+      "email": "tim@timothyjcoulter.com"
+    }
+  ]
 }
